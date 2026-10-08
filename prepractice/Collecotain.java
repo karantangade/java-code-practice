@@ -21,7 +21,8 @@ public class Collecotain {
          dp.add(14);
         dp.add(15);
 
-        Object[] pdarray =pd.toArray();
+       Object[]  pdarray =pd.toArray();
+       Object[]  dparray =pd.toArray(new  Object[0]);
         // System.out.println(dp.containsAll(pd));
         for (Object object : pdarray) {
              System.out.println(object);
