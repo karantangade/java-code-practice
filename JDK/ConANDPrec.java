@@ -1,7 +1,7 @@
 package JDK;
 import  java.util.*;
-import java.util.function.Predicate;
-import java.util.function.Consumer;
+import java.util.function.*;
+
 
 public class ConANDPrec {
     public static void main(String[] args) {
