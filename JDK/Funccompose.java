@@ -14,7 +14,7 @@ public class Funccompose {
         };
        Consumer<Integer> c=new Consumer<Integer>() {
         public  void accept(Integer tc){
-            System.out.println( (f.andThen(f1).apply(tc)));
+            System.out.println( (f.compose(f1).apply(tc)));
         }
        };
        c.accept(10);
